@@ -14,6 +14,7 @@ steps:
 - script: |
     set -eux  # fail on error
     pip install exdown 
+    pip install pytest
     pip install presidio-analyzer
     pip install presidio-anonymizer
     pip install presidio-image-redactor 
